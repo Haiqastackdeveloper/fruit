@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+body{
+    /* background-color: rgba(247, 228, 205, 0.541); */
+    background: url(../images/download\ \(4\).jpeg);
+    background-size: cover;
+
+}
+header{
+    width: 100%;
+    height: 70px;
+    background-color: rgb(44, 12, 12);
+    display: flex;
+    position: fixed;
+}
+header>.logo>img{
+    width: 30%;
+    /* height: 90%; */
+    margin-left: 65px;
+    margin-top: 5px;
+}
+header>nav>ul{
+    list-style: none;
+    display: flex;
+    text-transform: capitalize;
+    font-size: 22px;
+    /* margin-left: 10px; */
+    padding-bottom: 5px;
+}
+header>nav>ul>li{
+   margin-top: 25px;
+   margin-left: 40px;
+}
+header>nav>ul>li>a{
+   text-decoration: none;
+   color: white;
+   padding: 20px;
+   border-radius: 5px;
+}
+a{
+    transition-property: all;
+    transition-duration: .5s;
+    transition-timing-function: linear; 
+}
+header>nav>ul>li>a:hover{
+    color: rgba(71, 17, 17, 0.795);
+    background-color: white;
+}
+header>.login{
+margin-left: 30px;
+}
+header>.login>button{
+    margin-left: 20px;
+    margin-top: 5px;
+    text-transform: capitalize;
+    font-size: 16px;
+    padding-left: 20px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-right: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(116, 107, 107);
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+header>.login>button:hover{
+    color: rgba(71, 17, 17, 0.795);
+    font-weight: 600;
+}
+main{
+    
+}
