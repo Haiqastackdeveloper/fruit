@@ -85,6 +85,10 @@ header>.login>button{
     border-radius: 8px;
     cursor: pointer;
 }
+header>.login>button>a{
+    text-decoration: none;
+    color: rgb(116, 107, 107);
+}
 header>.login>button:hover{
     color: rgb(71, 17, 17);
     font-weight: 600;

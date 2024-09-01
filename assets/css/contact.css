@@ -5,7 +5,7 @@
     font-family: 'Times New Roman', Times, serif;
 }
 body{
-    background-image: url(../images/bas2.jpg);
+    background-image: url(../images/bi23.jpg);
     background-repeat: no-repeat;
     background-size: contain;
     color: #fff;
@@ -66,6 +66,10 @@ header>.login>button{
     border: 1px solid white;
     border-radius: 8px;
     cursor: pointer;
+}
+header>.login>button>a{
+    text-decoration: none;
+    color: rgb(116, 107, 107);
 }
 header>.login>button:hover{
     color: rgb(71, 17, 17);
@@ -133,8 +137,10 @@ input[type="email"]:focus{
     background-color: rgba(128, 128, 128, 0.486);
 }
 footer{
-    background-color: rgba(184, 157, 123, 0.781);
-    margin-top: 60px;
+    /* background-color: rgb(53, 39, 21); */
+    background-color: rgba(247, 228, 205, 0.541);
+
+    margin-top: 90px;
 }
 footer>.footer{
     padding-top: 40px;
