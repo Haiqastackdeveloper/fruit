@@ -11,48 +11,29 @@ body{
 }
 header{
     width: 100%;
-    height: 70px;
-    background-color: rgb(48, 14, 14);
+    height: 100px;
+    background-color: rgb(51, 6, 6);
     display: flex;
     position: fixed;
-    z-index: 16;
-    /* margin-top: -20px; */
+    z-index: 20;
 }
 header>.logo>img{
-    width: 35%;
+    width: 55%;
     /* height: 90%; */
-    margin-left: 80px;
-    margin-top: -5px;
+    margin-left: 65px;
+    margin-top: -10px;
 }
-/* header>.logo>span{
-    color: white; 
-    font-family: Brush Script MT;
-    position: relative;
-    left: 35px;
-    top: 15px;
-}
-header>.logo>pre{
-    font-size: 38px;
-    color: white;
-    font-family: Brush Script MT; padding: 4px;
-    border-right: 1px solid white;
-    position: relative;
-    top: 3px;
-    left: 18px;
-} */
 header>nav>ul{
     list-style: none;
     display: flex;
     text-transform: capitalize;
-    font-size: 18px;
-    padding: 10px;
-    margin-left: 20px;
-
+    font-size: 22px;
+    /* margin-left: 10px; */
+    padding: 15px;
 }
 header>nav>ul>li{
-   margin-top: 15px;
-   margin-left: 20px;
-   padding-right: 20px;
+   margin-top: 25px;
+   margin-left: 40px;
 }
 header>nav>ul>li>a{
    text-decoration: none;
@@ -69,32 +50,37 @@ header>nav>ul>li>a:hover{
     color: rgba(71, 17, 17, 0.795);
     background-color: white;
 }
+header>.login{
+margin-left: 30px;
+}
 header>.login>button{
-    margin-left: 30px;
-    margin-top: 5px;
+    margin-left: 20px;
+    margin-top: 20px;
     text-transform: capitalize;
+    /* padding-left: 20px; */
+    padding-top: 19px;
+    padding-bottom: 19px;
     font-size: 16px;
-    padding-left: 20px;
-    padding-top: 18px;
-    padding-bottom: 18px;
-    padding-right: 20px;
+    padding-left: 25px;
+     padding-right: 25px;
+    /* padding-right: 20px; */
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: rgb(90, 84, 84);
-    background-color:rgb(247, 228, 205) ;
-    /* border: 1px solid white; */
+    background-color: white;
+    border: 1px solid white;
     border-radius: 8px;
     cursor: pointer;
 }
 header>.login>button>a{
     text-decoration: none;
     color: rgb(116, 107, 107);
+
 }
 header>.login>button:hover{
-    color: rgb(71, 17, 17);
+    color: rgba(71, 17, 17, 0.795);
     font-weight: 600;
 }
 section>.catogory{
-    padding-top: 100px;
+    padding-top: 120px;
 }
 section>.catogory>h1{
     font-size: 40px;
@@ -114,15 +100,15 @@ section>.catogory>.first-line>.div{
     /* border: 1px solid black; */
     margin-right: 20px;
 background-color: white;
+text-align: center;
 }
-
 section>.catogory>.first-line>.div>img{
     width: 285px;
     height: 210px;
 }
 section>.catogory>.first-line>.div>.text>h1{
 font-size: 18px;
-    padding-left: 3px;
+    padding-top: 8px;
     color: brown;
     text-transform: capitalize;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
@@ -133,96 +119,40 @@ section>.catogory>.first-line>.div>div>.detail{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     /* color:rgba(78, 50, 50, 0.603); */
 }
-section>.container,.container1{
-    padding-top: 120px;
-    margin-left: 80px;
-    margin-right: 70px;
+section>.catogory>.first-line>.div>div>.price>h2{
+    font-size: 15px; 
+    font-weight: 500; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; color: brown;
 }
-section>.container>.event>h2{
-    color: rgb(83, 26, 26);
-    font-size: 35px;
-    text-transform: capitalize;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-section>.container>.event>h3{
-    font-size: 25px;
-    text-transform: capitalize;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: rgb(83, 26, 26);
-}
-section>.container>.event>.apple>h2{
-    font-size: 18px;
-    padding-top: 5px;
-    text-transform: capitalize;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: rgb(83, 26, 26);
-}
-section>.container>.event>.apple>p{
+section>.catogory>.first-line>.div>div>.discount>span{
+    color: rgba(0, 0, 0); 
     font-size: 14px;
-    padding-top: 5px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: rgb(83, 26, 26);
 }
-section>.container>.event>.apple>h3{
-    font-size: 16px;
-    padding-top: 5px;
-    text-transform: capitalize;
-    font-weight: bold;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: rgb(83, 26, 26);
+section>.catogory>.first-line>.div>div>.discount>h2{
+font-size: 15px; 
+font-weight: 500; 
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+color: brown;
+padding-top: 4px;
 }
-section>.container{
-    display: flex;
-    /* flex-wrap: wrap; */
-}
-section>.container>.img{
-    float: right;
-}
-section>.container1>.event>h2{
-    color: rgb(83, 26, 26);
-    font-size: 35px;
-    text-transform: capitalize;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-section>.container1>.event>h3{
-    font-size: 25px;
-    text-transform: capitalize;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: rgb(83, 26, 26);
-}
-section>.container1>.event>.apple>h2{
+section>.catogory>.first-line>.div>div>button{
+    float: centre;
+    margin: 10px;
+    width: 260px; 
+    padding: 10px; 
+    border: 1px solid brown; 
+    border-radius: 8px; 
+    color: white; 
+    background-color: brown; 
     font-size: 18px;
-    padding-top: 5px;
-      /* position: absolute;
-    top: 20px;
-    left: 0; */
-    text-transform: capitalize;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: rgb(83, 26, 26);
-}
-section>.container1>.event>.apple>p{
-    font-size: 14px;
-    padding-top: 5px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: rgb(83, 26, 26);
-}
-section>.container1>.event>.apple>h3{
-    font-size: 16px;
-    padding-top: 5px;
-    text-transform: capitalize;
-    font-weight: bold;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: rgb(83, 26, 26);
-}
-section>.container1{
-    display: flex;
-    /* flex-wrap: wrap; */
+    cursor: pointer;
 }
 
 footer{
+    /* background-color: rgba(184, 157, 123, 0.932); */
     background-color: rgba(184, 157, 123, 0.555);
     /* background-color: rgb(190, 109, 10); */
-    margin-top: 60px;
+    margin-top: 90px;
 }
 footer>.footer{
     padding-top: 40px;

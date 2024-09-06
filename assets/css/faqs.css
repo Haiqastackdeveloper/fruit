@@ -3,25 +3,23 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Times New Roman', Times, serif;
-
 }
 body{
     background-color: rgba(247, 228, 205, 0.541);
-
 }
 header{
     width: 100%;
-    height: 75px;
-    background-color: rgb(44, 12, 12);
+    height: 100px;
+    background-color: rgb(51, 6, 6);
     display: flex;
     position: fixed;
-    z-index: 16;
+    z-index: 20;
 }
 header>.logo>img{
-    width: 30%;
+    width: 55%;
     /* height: 90%; */
     margin-left: 65px;
-    margin-top: 5px;
+    margin-top: -10px;
 }
 header>nav>ul{
     list-style: none;
@@ -29,7 +27,7 @@ header>nav>ul{
     text-transform: capitalize;
     font-size: 22px;
     /* margin-left: 10px; */
-    padding-bottom: 5px;
+    padding: 15px;
 }
 header>nav>ul>li{
    margin-top: 25px;
@@ -55,15 +53,16 @@ margin-left: 30px;
 }
 header>.login>button{
     margin-left: 20px;
-    margin-top: 5px;
+    margin-top: 20px;
     text-transform: capitalize;
-    font-size: 16px;
-    padding-left: 20px;
+    /* padding-left: 20px; */
     padding-top: 18px;
     padding-bottom: 18px;
-    padding-right: 20px;
+    font-size: 16px;
+    padding-left: 25px;
+     padding-right: 25px;
+    /* padding-right: 20px; */
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: rgb(116, 107, 107);
     background-color: white;
     border: 1px solid white;
     border-radius: 8px;
@@ -72,6 +71,7 @@ header>.login>button{
 header>.login>button>a{
     text-decoration: none;
     color: rgb(116, 107, 107);
+
 }
 header>.login>button:hover{
     color: rgba(71, 17, 17, 0.795);
@@ -82,7 +82,7 @@ border: 1px solid white;
 border-radius: 12px;
 /* width: 50%; */
 position: relative;
-top: 100px;
+top: 130px;
     margin-left: 250px;
     margin-right: 250px;
     margin-bottom: 250px;

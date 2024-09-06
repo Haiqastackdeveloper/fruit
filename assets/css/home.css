@@ -145,10 +145,6 @@ section>.container>.images>.divs>.kg,span{
     text-transform: capitalize;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
 }
-section>.container>.images>.divs>.kg>span>pre{
-    font-weight: bold;
-     color: rgba(117, 7, 7, 0.781);
-}
 section>.container>.images>.divs>.price{
     /* padding-left: 5px; */
     font-size: 15px;
@@ -240,15 +236,15 @@ section>.catogory>.first-line>.div{
     /* border: 1px solid black; */
     margin-right: 20px;
 background-color: white;
+text-align: center;
 }
-
 section>.catogory>.first-line>.div>img{
     width: 285px;
     height: 210px;
 }
 section>.catogory>.first-line>.div>.text>h1{
 font-size: 18px;
-    padding-left: 3px;
+    padding-top: 8px;
     color: brown;
     text-transform: capitalize;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
@@ -263,6 +259,10 @@ section>.catogory>.first-line>.div>div>.price>h2{
     font-size: 15px; 
     font-weight: 500; 
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; color: brown;
+}
+section>.catogory>.first-line>.div>div>.discount>span{
+    color: rgba(0, 0, 0); 
+    font-size: 14px;
 }
 section>.catogory>.first-line>.div>div>.discount>h2{
 font-size: 15px; 

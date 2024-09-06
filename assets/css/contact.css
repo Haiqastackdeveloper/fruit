@@ -9,27 +9,29 @@ body{
 }
 header{
     width: 100%;
-    height: 90px;
+    height: 100px;
     background-color: rgb(51, 6, 6);
     display: flex;
+    z-index: 20;
     position: fixed;
-    z-index: 17;
 }
 header>.logo>img{
     width: 55%;
+    /* height: 90%; */
     margin-left: 65px;
-    margin-top: -12px;
+    margin-top: -10px;
 }
 header>nav>ul{
     list-style: none;
     display: flex;
     text-transform: capitalize;
-    font-size: 18px;
-    padding: 10px;
+    font-size: 22px;
+    /* margin-left: 10px; */
+    padding: 15px;
 }
 header>nav>ul>li{
-   margin-top: 30px;
-   margin-left: 30px;
+   margin-top: 25px;
+   margin-left: 40px;
 }
 header>nav>ul>li>a{
    text-decoration: none;
@@ -47,19 +49,20 @@ header>nav>ul>li>a:hover{
     background-color: white;
 }
 header>.login{
-    margin-left: 50px;
+margin-left: 30px;
 }
 header>.login>button{
-    margin-left: 30px;
+    margin-left: 20px;
     margin-top: 20px;
     text-transform: capitalize;
-    font-size: 16px;
-    padding-left: 20px;
+    /* padding-left: 20px; */
     padding-top: 18px;
     padding-bottom: 18px;
-    padding-right: 20px;
+    font-size: 16px;
+    padding-left: 25px;
+     padding-right: 25px;
+    /* padding-right: 20px; */
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: rgb(116, 107, 107);
     background-color: white;
     border: 1px solid white;
     border-radius: 8px;
@@ -68,19 +71,25 @@ header>.login>button{
 header>.login>button>a{
     text-decoration: none;
     color: rgb(116, 107, 107);
+
 }
 header>.login>button:hover{
-    color: rgb(71, 17, 17);
+    color: rgba(71, 17, 17, 0.795);
     font-weight: 600;
 }
 .contact-form{
     border: 1px solid white;
     width: 450px;
+    height: 500px;
     position: relative;
     top: 120px;
-    left: 400px;
+    /* left: 400px; */
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 40px;
-padding: 30px;
+    padding-bottom: 40px;
+    justify-content: center;
+    padding: 30px;
     align-items: center;
     background-color: white;
 
@@ -113,17 +122,16 @@ padding: 30px;
 .contact-form button{
     font-size: 18px;
     font-weight: bold;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    margin-left: 100px;
-    margin-right: 0;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    float: right;
     padding: 10px 15px;
-    width: 30%;
+    width: 35%;
     border: 0;
     border-radius: 5px;
     background-color: rgba(247, 228, 205, 0.541);
 
-    transition: all 1s;
+    transition: all 0.5s linear;
 }
 .contact-form button:hover{
     color:#fff;
@@ -132,21 +140,25 @@ padding: 30px;
     border-radius: 10px;
 
 }
-input::placeholder{
-    /* color: rgba(128, 128, 128, 0.514); */
+input:-ms-input-placeholder{
+    color: rgba(128, 128, 128, 0.685);
     padding-left: 5px;
+}
+input::placeholder{
+    padding-left: 4px;
 }
 input[type="text"]:focus{
     border: 2px solid rgba(247, 228, 205, 0.541);
     border-radius: 10px;
     color: #3f3d3d;
-    background-color: rgba(221, 182, 134, 0.541);
+    background-color: rgba(247, 228, 205, 0.541);
+
 }
 input[type="number"]:focus{
     border: 2px solid rgba(247, 228, 205, 0.541);
     border-radius: 10px;
     color: #3f3d3d;
-    background-color: rgba(221, 182, 134, 0.541);
+    background-color: rgba(247, 228, 205, 0.541);
 }
 input[type="email"]:focus{
     border: 2px solid rgba(247, 228, 205, 0.541);

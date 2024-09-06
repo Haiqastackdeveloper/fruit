@@ -12,16 +12,16 @@ body{
 }
 header{
     width: 100%;
-    height: 75px;
-    background-color: rgb(44, 12, 12);
+    height: 100px;
+    background-color: rgb(51, 6, 6);
     display: flex;
     position: fixed;
 }
 header>.logo>img{
-    width: 30%;
+    width: 55%;
     /* height: 90%; */
     margin-left: 65px;
-    margin-top: 5px;
+    margin-top: -10px;
 }
 header>nav>ul{
     list-style: none;
@@ -29,7 +29,7 @@ header>nav>ul{
     text-transform: capitalize;
     font-size: 22px;
     /* margin-left: 10px; */
-    padding-bottom: 5px;
+    padding: 15px;
 }
 header>nav>ul>li{
    margin-top: 25px;
@@ -55,15 +55,16 @@ margin-left: 30px;
 }
 header>.login>button{
     margin-left: 20px;
-    margin-top: 5px;
+    margin-top: 20px;
     text-transform: capitalize;
-    font-size: 16px;
-    padding-left: 20px;
+    /* padding-left: 20px; */
     padding-top: 18px;
     padding-bottom: 18px;
-    padding-right: 20px;
+    font-size: 16px;
+    padding-left: 25px;
+     padding-right: 25px;
+    /* padding-right: 20px; */
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: rgb(116, 107, 107);
     background-color: white;
     border: 1px solid white;
     border-radius: 8px;
@@ -77,17 +78,22 @@ header>.login>button:hover{
     color: rgba(71, 17, 17, 0.795);
     font-weight: 600;
 }
-main>.i{
-}
 main>.i>img{
-margin-left: 200px;
-    width: 70%;
-    height: 450px;
-    /* display: flex; */
+    width: 65%;
+    /* height: 450px; */
+    padding-top: 120px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     /* align-content: center; */
     /* border: 1px solid transparent; */
 /* border-radius: 18px; */
-    margin-top: 90px;
+}
+section{
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
 }
 section>h2{
     text-align: center;
@@ -97,14 +103,15 @@ section>h2{
     font-family: sans-serif;
 }
 section>h3{
-margin-left: 200px;
 font-size: 32px;
 color: rgb(56, 20, 20);
+/* margin-left: 200px; */
 }
 section>p{
-    font-size: 18px;
-    margin-left: 200px;
-    margin-right: 200px;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* margin-left: 200px; */
+    /* margin-right: 200px; */
 }
 footer{
     background-color: rgba(184, 157, 123, 0.555);
