@@ -133,15 +133,13 @@ header>.login>button:hover{
     border: 0;
     border-radius: 5px;
     background-color: rgba(247, 228, 205, 0.541);
-
     transition: all 0.5s linear;
 }
 .contact-form button:hover{
     color:#fff;
-    background-color:brown;
+    background-color: rgb(51, 6, 6);
     border: none;
     border-radius: 10px;
-
 }
 input:-ms-input-placeholder{
     color: rgba(128, 128, 128, 0.685);
