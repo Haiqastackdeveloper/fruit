@@ -154,7 +154,7 @@ section>.event{
 section>.event>h2{
     color: rgb(112, 29, 29);
     position: relative;
-    top: 20px;
+    top: 40px;
     font-size: 30px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: normal;
@@ -163,7 +163,7 @@ section>.event>h2{
 section>.event>h3{
     color: rgb(112, 29, 29);
     position: relative;
-    top: 20px;
+    top: 50px;
     text-align: center;
     font-size: 25px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -178,9 +178,25 @@ section>.event>.img-text>img{
     margin-left: auto;
     margin-right: auto;
 }
+section>.event>.img-text>.text>img{
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+section>.event>.future>h3{
+    color: rgb(112, 29, 29);
+    position: relative;
+    top: 20px;
+    text-align: center;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+}
 section>.event>.img-text>.text{
     width: 50%;
-    margin-top: 20px;
+    justify-content: center;
+    /* margin-top: 20px; */
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -207,6 +223,7 @@ section>.event>.img-text>.text>p{
     color: rgb(112, 29, 29);
     position: relative;
     top: 20px;
+    padding-bottom: 40px;
     text-align: center;
     font-size: 17px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
